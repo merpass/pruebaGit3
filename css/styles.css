@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    /*Convierte el contenedor en un contenedor Flexbox.*/
+    display: flex;
+     /*Pone un elemento sobre otro*/
+    flex-direction: column;
+     /*Centra los elementos verticalmente*/
+    align-items: center;
+    
+}
+.container {
+     /*Convierte el contenedor en un contenedor Flexbox.*/
+    display: flex;
+    /*Permite que las tarjetas se envuelvan a la siguiente línea si no hay suficiente espacio en la línea actual.*/
+    flex-wrap: wrap;
+    /*Deja un espacio de 20 px entre las tarjetitas*/
+    gap: 20px;
+     /*Centra los elementos en ambas direcciones*/
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+     /*Convierte el contenedor en un contenedor Flexbox.*/
+    display: flex;
+     /*Centra los elementos en ambas direcciones*/
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    padding: 20px;
+}
